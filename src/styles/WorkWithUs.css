@@ -1,0 +1,133 @@
+.work-with-us {
+  font-family: 'Poppins', sans-serif; /* Ensure Poppins font is used */
+  color: #24272C; /* Text Color */
+  text-align: center;
+  background-color: #F2F2F2; /* Page BG Color */
+  padding: 50px;
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h2 {
+  font-size: 32px; /* Corresponds to h2(32px) */
+  margin-bottom: 0.5em;
+}
+
+.hero-text p {
+  font-size: 1.2em; /* Corresponds to Body text - 16px */
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+.hero-button {
+  background-color: #3DB166; /* Primary Color */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px; /* Corresponds to Body text - 16px */
+  border-radius: 6px; /* Border radius adjusted */
+}
+
+.hero-button:hover {
+  background-color: #192F59; /* Secondary Color */
+}
+
+.content {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px; /* Corresponds to h2(24px) */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ffffff; /* Adjusted background */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px; /* Border radius adjusted */
+}
+
+.job-listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjusted alignment */
+  gap: 20px;
+}
+
+.job {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  width: calc(50% - 10px); /* Adjusted width for two-column layout */
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.job:hover {
+  transform: translateY(-5px);
+}
+
+.job h3 {
+  font-size: 20px; /* Corresponds to h3(20px) */
+  margin-bottom: 10px;
+}
+
+.job p {
+  font-size: 16px; /* Corresponds to Body text - 16px */
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.job a {
+  display: inline-block;
+  font-size: 16px; /* Corresponds to Body text - 16px */
+  color: #3DB166; /* Primary Color */
+  text-decoration: none;
+}
+
+.job a:hover {
+  text-decoration: underline;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  font-size: 16px; /* Corresponds to Body text - 16px */
+}
+
+.contact-info a {
+  color: #3DB166; /* Primary Color */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
