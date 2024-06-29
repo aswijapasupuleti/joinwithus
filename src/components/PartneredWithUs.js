@@ -1,14 +1,16 @@
 import React from 'react';
-import '../styles/PartnerWithUs.css'; // Ensure this path is correct
+import './PartneredWithUs.css';
 import googleLogo from '../assets/images/google-logo.png';
 import microsoftLogo from '../assets/images/microsoft-logo.png';
 import awsLogo from '../assets/images/aws-logo.png';
 import ciscoLogo from '../assets/images/cisco-logo.png';
 import intelLogo from '../assets/images/intel-logo.png';
 
-const PartnerWithUs = () => {
+
+
+const PartneredWithUs = () => {
   return (
-    <div className="partner-with-us">
+    <div className="partnered-with-us">
       <h1>We are partnered with</h1>
       <div className="partners">
         <div className="partner">
@@ -54,8 +56,36 @@ const PartnerWithUs = () => {
           </div>
         </div>
       </div>
+
+      {/* New Sections */}
+      <div className="migration-section">
+        <div className="migration-header">
+          <h2>Migrate to Google Workspace. Fast, seamless and secure data migrations</h2>
+          <p>Easily migrate mail, file, and archive data to Google Workspace from over 20 modern and legacy source platforms. Trusted by brands such as Netflix and Booking.com.</p>
+          <button>Request a demo</button>
+        </div>
+        <div className="migration-options">
+          <div className="option">
+            <h3>Migrate to Google Workspace from Microsoft 365</h3>
+            <p>Migrate Microsoft 365 to Google Workspace migrations run smoothly and without delays.</p>
+          </div>
+          <div className="option">
+            <h3>Consolidate your data in Google Workspace</h3>
+            <p>Merge mail, file, and archive data to Google Workspace from over 20 supported source systems.</p>
+          </div>
+          <div className="option">
+            <h3>Tenant to tenant Google Workspace migrations</h3>
+            <p>Migrate between Google tenants into one destination following mergers and acquisitions.</p>
+          </div>
+        </div>
+      </div>
+      <div className="aws-section">
+        <h2>Speak to an AWS expert</h2>
+        <p>Speak to one of our AWS engineers and get a free cloud consultation.</p>
+        <button>Get in touch</button>
+      </div>
     </div>
   );
 };
 
-export default PartnerWithUs;
+export default PartneredWithUs;

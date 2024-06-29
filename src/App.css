@@ -1,28 +1,39 @@
-/* App.css */
-.App nav {
-  background-color: #f8f8f8; /* Adjust as needed */
-  padding: 10px;
-}
-
-.App nav ul {
-  list-style-type: none;
+body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  display: flex; /* Use flexbox for horizontal alignment */
-  justify-content: center; /* Center the items */
+  background-color: #F8F9FA;
+  color: #24272C;
 }
 
-.App nav ul li {
-  margin: 0 15px; /* Space between the items */
+.App {
+  text-align: center;
 }
 
-.App nav ul li a {
-  text-decoration: none;
-  color: #333; /* Adjust as needed */
-  font-family: 'Poppins', sans-serif;
+.App-header {
+  background-color: #192F59;
+  padding: 20px;
+  color: white;
 }
 
-.App nav ul li a:hover {
-  text-decoration: underline;
-  color: #3DB166; /* Adjust as needed */
+.App-header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #192F59;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.App-footer p {
+  margin: 0;
 }

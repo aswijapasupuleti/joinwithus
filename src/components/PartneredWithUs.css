@@ -1,0 +1,164 @@
+.partnered-with-us {
+  text-align: center;
+  padding: 5%;
+  background-color: #F2F2F2;
+}
+
+.partnered-with-us h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  background-color: #192F59;
+  color: #FFFFFF;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.partner {
+  background-color: #E0F7FA;
+  padding: 10px;
+  border-radius: 6px;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.partner:hover {
+  transform: translateY(-5px);
+}
+
+.partner-inner {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.partner-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.partner h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #192F59;
+  font-family: 'Poppins', sans-serif;
+}
+
+.partner p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #24272C;
+  font-family: 'Poppins', sans-serif;
+}
+
+.partner a {
+  display: inline-block;
+  font-size: 16px;
+  color: #3DB166;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.partner a:hover {
+  text-decoration: underline;
+  color: #192F59;
+}
+
+button {
+  background-color: #3DB166;
+  color: #FFFFFF;
+  border: 2px solid #3DB166;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+  background-color: #192F59;
+  color: #3DB166;
+}
+
+/* New Styles */
+.migration-section {
+  margin-top: 40px;
+  background-color: #192F59;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.migration-header {
+  margin-bottom: 20px;
+}
+
+.migration-header h2 {
+  font-size: 28px;
+}
+
+.migration-header p {
+  font-size: 16px;
+}
+
+.migration-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.option {
+  background-color: #E0F7FA;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.option h3 {
+  font-size: 20px;
+  color: #192F59;
+  margin-bottom: 10px;
+}
+
+.option p {
+  font-size: 16px;
+  color: #24272C;
+}
+
+.aws-section {
+  margin-top: 40px;
+  background-color: #FDBA12;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.aws-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.aws-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.aws-section button {
+  background-color: #FFFFFF;
+  color: #FDBA12;
+  border: 2px solid #FFFFFF;
+}

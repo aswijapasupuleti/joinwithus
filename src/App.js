@@ -1,30 +1,20 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import WorkWithUs from './pages/WorkWithUs'; // Ensure this path is correct
-import PartnerWithUs from './pages/PartnerWithUs'; // Ensure this path is correct
-import './App.css';
+import PartneredWithUs from './components/PartneredWithUs';
+import './App.css'; // Ensure this path is correct
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/work-with-us">Work With Us</Link>
-            </li>
-            <li>
-              <Link to="/partner-with-us">Partnered With Us</Link>
-            </li>
-          </ul>
-        </nav>
-        <Routes>
-          <Route path="/work-with-us" element={<WorkWithUs />} />
-          <Route path="/partner-with-us" element={<PartnerWithUs />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <h1>Welcome to Our Services</h1>
+      </header>
+      <main>
+        <PartneredWithUs />
+      </main>
+      <footer className="App-footer">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+      </footer>
+    </div>
   );
 }
 
