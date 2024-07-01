@@ -10,7 +10,7 @@ function App() {
     backgroundPosition: 'center',
     color: '#FFFFFF',
     padding: '20px',
-    height: '17vh', // Set height to full viewport height
+    height: '7vh', // Set height to full viewport height
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-start', // Align items to the left
