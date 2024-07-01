@@ -2,8 +2,8 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #F8F9FA;
-  color: #24272C;
+  background-color: #F2F2F2; /* Page BG Color */
+  color: #24272C; /* Text Color */
 }
 
 .App {
@@ -11,14 +11,17 @@ body {
 }
 
 .App-header {
-  background-color: #192F59;
-  padding: 20px;
-  color: white;
-}
-
-.App-header h1 {
-  font-size: 36px;
-  margin: 0;
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 100vh; /* Set height to full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+  padding-left: 10%; /* Add padding to the left */
 }
 
 main {
@@ -26,7 +29,7 @@ main {
 }
 
 .App-footer {
-  background-color: #192F59;
+  background-color: #192F59; /* Secondary Color */
   padding: 10px;
   color: white;
   position: fixed;
@@ -36,4 +39,33 @@ main {
 
 .App-footer p {
   margin: 0;
+}
+
+/* Button Styles */
+button {
+  background-color: #3DB166; /* Primary Color */
+  color: #FFFFFF; /* White Text */
+  border: 2px solid #3DB166; /* Primary Color */
+  border-radius: 6px; /* Border Radius */
+  padding: 10px 20px; /* Button Padding */
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+  background-color: #192F59; /* Secondary Color */
+  color: #3DB166; /* Primary Color Text */
+}
+
+/* Link Styles */
+a {
+  color: #3DB166; /* Primary Color */
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #3DB166; /* Primary Color */
 }
