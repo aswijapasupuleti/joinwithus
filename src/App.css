@@ -10,20 +10,6 @@ body {
   text-align: center;
 }
 
-.App-header {
-  background-size: cover; /* Ensure the image covers the entire container */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  height: 100vh; /* Set height to full viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; /* Align items to the left */
-  max-width: 100%;
-  margin: 0 auto;
-  border-radius: 0;
-  padding-left: 10%; /* Add padding to the left */
-}
-
 main {
   padding: 20px;
 }
